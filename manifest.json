@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "Sarcastic Text Generator",
+    "version": "1.0",
+  
+    "description": "Gives text sarcasm",
+  
+    "icons": {
+      "48": "mocking-spongebob.png"
+    }
+  
+}  
