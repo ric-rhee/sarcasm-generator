@@ -15,6 +15,6 @@
     "browser_action": {
       "default_icon": "icons/mocking-spongebob-48.png",
       "default_title": "Sarcasm Generator",
-      "default_popup": "popup/ui.html"
+      "default_popup": "popup/popup.html"
     }
 }  
