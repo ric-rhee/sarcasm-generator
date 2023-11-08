@@ -1,12 +1,21 @@
 {
     "manifest_version": 2,
-    "name": "Sarcastic Text Generator",
+    "name": "Sarcasm Generator",
     "version": "1.0",
   
     "description": "Gives text sarcasm",
   
     "icons": {
-      "48": "mocking-spongebob.png"
+      "16": "icons/mocking-spongebob16.png",
+      "32": "icons/mocking-spongebob32.png",
+      "48": "icons/mocking-spongebob-48.png",
+      "128": "icons/mocking-spongebob-128.png"
+    },
+
+    "browser_action": {
+      "default_icon": "icons/mocking-spongebob-48.png",
+      "default_title": "Sarcasm Generator",
+      "default_popup": "popup/ui.html"
     }
   
 }  
