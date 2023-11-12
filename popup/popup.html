@@ -6,20 +6,23 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        <link rel="stylesheet" href="popup.css">
     </head>
     <body>
         <div id="popup-content">
-            <input type="checkbox" id="checkbox1" name="alternate" value="alternate">
-            <label for="checkbox1">Alternate</label><br>
-            <input type="checkbox" id="checkbox2" name="random" value="random">
-            <label for="checkbox2">Randomize</label><br>
-            <input type="checkbox" id="checkbox3" name="uppercase" value="uppercase">
-            <label for="checkbox3">Start words with uppercase</label><br>
-            <input type="checkbox" id="checkbox4" name="lowercase" value="lowercase">
-            <label for="checkbox4">Start words with lowercase</label><br>
-            <input type="text" id="text_to_convert" name="text_to_convert" placeholder="Input text to give sarcasm">
+            <input type="checkbox" name="alternate" value="alternate">
+            <label>Alternate</label><br>
+            <input type="checkbox" name="random" value="random">
+            <label>Randomize</label><br>
+            <input type="checkbox" name="uppercase" value="uppercase">
+            <label>Start words with uppercase</label><br>
+            <input type="checkbox" name="lowercase" value="lowercase">
+            <label>Start words with lowercase</label><br>
+
+            <input type="text" name="text_to_convert" 
+                placeholder="Input text to give sarcasm"><br>
+            <textarea name="result"></textarea>
         </div>
-        <script src="ui.js" async defer></script>
+        <script src="popup.js" async defer></script>
     </body>
 </html>
