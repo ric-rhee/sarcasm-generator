@@ -1,0 +1,9 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: #f4f4f4;
+}
+
+.extension-container {
+    background-color: #fff;
+    width: 300px;
+}

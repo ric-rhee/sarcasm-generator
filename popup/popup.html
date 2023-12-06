@@ -3,25 +3,38 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
+        <title>Sarcasm Generator Browser Extension</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="popup.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,
+        wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,
+        300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
     </head>
     <body>
-        <div id="popup-content">
-            <input type="checkbox" name="alternate" value="alternate">
-            <label>Alternate</label><br>
-            <input type="checkbox" name="random" value="random">
-            <label>Randomize</label><br>
-            <input type="checkbox" name="uppercase" value="uppercase">
-            <label>Start words with uppercase</label><br>
-            <input type="checkbox" name="lowercase" value="lowercase">
-            <label>Start words with lowercase</label><br>
-
-            <input type="text" name="text_to_convert" 
-                placeholder="Input text to give sarcasm"><br>
-            <textarea name="result"></textarea>
+        <div class="extension-container">
+            <div class="extension">
+                <div class="options">
+                    <div class="alternate">
+                        <input type="checkbox" name="alternate">
+                        <label for="alternate">Alternate</label>
+                    </div>
+                    <div class="randomize">
+                        <input type="checkbox" name="randomize">
+                        <label for="randomize">Randomize</label>
+                    </div>
+                    <div class="uppercase">
+                        <input type="checkbox" name="uppercase">
+                        <label for="uppercase">Uppercase</label>
+                    </div>
+                    <div class="lowercase">
+                        <input type="checkbox" name="lowercase">
+                        <label for="lowercase">lowercase</label>
+                    </div>
+                </div>
+            </div>
         </div>
         <script src="popup.js" async defer></script>
     </body>
